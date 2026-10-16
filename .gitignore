@@ -94,3 +94,15 @@ Thumbs.db
 # Testing
 /coverage
 .nyc_output
+
+
+# #
+.output
+.vinxi
+.tanstack/**
+.nitro
+*.local
+
+# Wrangler / Cloudflare
+.wrangler/
+.dev.vars
