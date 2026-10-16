@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Facebook, Instagram, Mail, MapPin, Menu, Phone, Youtube } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
-import logoAsset from "@/assets/zajul-logo.png";
+import logoAsset from "@/assets/zajul-logo.svg";
 import { contact } from "@/lib/zajul-data";
 
 const nav = [
