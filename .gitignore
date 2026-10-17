@@ -106,3 +106,4 @@ Thumbs.db
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
+.netlify/

@@ -164,8 +164,17 @@
     min-width: 320px;
     letter-spacing: 0;
   }
-  h1, h2, h3, h4 { font-family: var(--font-display); letter-spacing: 0; }
-  ::selection { background: var(--highlight); color: var(--highlight-foreground); }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    letter-spacing: 0;
+  }
+  ::selection {
+    background: var(--highlight);
+    color: var(--highlight-foreground);
+  }
 }
 
 @utility section-kicker {
@@ -180,13 +189,54 @@
   position: relative;
   color: var(--muted-foreground);
   transition: color 180ms ease;
-  &:hover { color: var(--primary); }
-  &::after { content: ""; position: absolute; left: 0; right: 0; bottom: -0.75rem; height: 2px; transform: scaleX(0); background: var(--highlight); transition: transform 180ms ease; }
+  &:hover {
+    color: var(--primary);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.75rem;
+    height: 2px;
+    transform: scaleX(0);
+    background: var(--highlight);
+    transition: transform 180ms ease;
+  }
 }
-@utility nav-link-active { color: var(--primary); &::after { transform: scaleX(1); } }
-@utility form-label { display: grid; gap: 0.5rem; font-size: 0.875rem; font-weight: 700; color: var(--foreground); }
-@utility form-control { height: 2.75rem; width: 100%; border-radius: var(--radius); border: 1px solid var(--input); background: var(--background); padding: 0 0.75rem; font-size: 0.875rem; outline: none; &:focus { box-shadow: 0 0 0 2px var(--ring); } }
+@utility nav-link-active {
+  color: var(--primary);
+  &::after {
+    transform: scaleX(1);
+  }
+}
+@utility form-label {
+  display: grid;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--foreground);
+}
+@utility form-control {
+  height: 2.75rem;
+  width: 100%;
+  border-radius: var(--radius);
+  border: 1px solid var(--input);
+  background: var(--background);
+  padding: 0 0.75rem;
+  font-size: 0.875rem;
+  outline: none;
+  &:focus {
+    box-shadow: 0 0 0 2px var(--ring);
+  }
+}
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }
