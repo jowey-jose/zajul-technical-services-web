@@ -256,8 +256,8 @@ export const contact = {
   phone: "+254 722 604 306",
   marketingPhone: "+254 721 475 930",
   whatsapp: "254722604306",
-  email: "zajultechnicalservices@gmail.com",
-  location: "Kitengela, above Quick Matt Supermarket",
+  email: "info@zajultechservices.com",
+  location: "OBC Plaza, Kitengela",
   postal: "P.O. Box 00204, Athi River",
 };
 export const productDetails: Record<string, string> = {

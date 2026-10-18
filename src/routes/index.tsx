@@ -251,7 +251,7 @@ function HomePage() {
             </p>
             <p className="mt-6 flex items-center gap-3 font-bold text-primary">
               <MapPin className="size-5 text-highlight-strong" />
-              Kitengela, above Quick Matt Supermarket
+              OBC Plaza, Kitengela
             </p>
             <Button asChild variant="outline" className="mt-7">
               <Link to="/contact">

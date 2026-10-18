@@ -73,7 +73,7 @@ function ContactPage() {
               </a>
             </Info>
             <Info icon={Clock3} title="Opening hours">
-              [Opening hours to be confirmed]
+              Open 24 hrs a day
             </Info>
             <Button asChild size="lg" className="w-full">
               <a
@@ -102,7 +102,7 @@ function ContactPage() {
               <MapPin className="mx-auto size-10 text-highlight" />
               <h2 className="mt-4 text-2xl font-bold">Shop map placeholder</h2>
               <p className="mt-2 text-sm text-primary-foreground/65">
-                Kitengela, above Quick Matt Supermarket
+                OBC Plaza, Kitengela
               </p>
               <p className="mt-1 text-xs text-primary-foreground/50">
                 Exact map pin to be added after confirmation.

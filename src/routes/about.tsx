@@ -33,7 +33,7 @@ function AboutPage() {
     <>
       <PageIntro
         eyebrow="About Zajul"
-        title="A family business built around practical solutions"
+        title="A private business company built around practical solutions"
       >
         Based in Kitengela, we bring product supply, technical knowledge and
         customer care together under one trusted local name.

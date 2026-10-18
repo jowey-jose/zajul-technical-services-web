@@ -220,7 +220,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-primary-foreground/10 px-5 py-5 text-center text-xs text-primary-foreground/55">
-        © 2026 Zajul Technical Services Limited. Prototype presentation.
+        © 2026 Zajul Technical Services Limited.
       </div>
     </footer>
   );
